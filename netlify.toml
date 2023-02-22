@@ -1,0 +1,16 @@
+# index page to the restaurant list
+[[redirects]]
+from = "/"
+to = "https://www.mcdonalds.de/restaurants-nordheide"
+status = 200
+
+[[redirects]]
+from = "/index.html"
+to = "https://www.mcdonalds.de/restaurants-nordheide"
+status = 200
+
+# everything else to the restaurant list (unless it exists on netlify)
+[[redirects]]
+from = "/*"
+to = "https://www.mcdonalds.de/restaurants-nordheide"
+status = 200
