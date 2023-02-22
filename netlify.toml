@@ -2,11 +2,13 @@
 [[redirects]]
 from = "/"
 to = "https://www.mcdonalds.de/restaurants-nordheide"
+force = true
 status = 301
 
 [[redirects]]
 from = "/index.html"
 to = "https://www.mcdonalds.de/restaurants-nordheide"
+force = true
 status = 301
 
 # everything else to the restaurant list (unless it exists on netlify)
