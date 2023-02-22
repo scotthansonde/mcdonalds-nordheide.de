@@ -6,8 +6,8 @@
 # https://jobs.mcdonalds-nordheide.de/* https://www.mcdonalds.de/restaurants-nordheide/stellenangebote 301!
 
 # index page to the restaurant list
-/ https://www.mcdonalds.de/restaurants-nordheide 301!
-/index.html https://www.mcdonalds.de/restaurants-nordheide 301!
+/ https://www.mcdonalds.de/restaurants-nordheide 200!
+/index.html https://www.mcdonalds.de/restaurants-nordheide 200!
 
 # everything else to the restaurant list (unless it exists on netlify)
-/* https://www.mcdonalds.de/restaurants-nordheide 301
+/* https://www.mcdonalds.de/restaurants-nordheide 200
