@@ -1,3 +1,17 @@
+# jobs domain to mcd job query
+[[redirects]]
+from = "https://jobs.mcdonalds-nordheide.de/*"
+to = "https://karriere.mcdonalds.de/jobangebote/?location=21244%2C+Buchholz+in+der+Nordheide+-+Buchholz&distance=15"
+force = true
+status = 302
+
+[[redirects]]
+from = "/job*"
+to = "https://karriere.mcdonalds.de/jobangebote/?location=21244%2C+Buchholz+in+der+Nordheide+-+Buchholz&distance=15"
+force = true
+status = 302
+
+
 # index page to the restaurant list
 [[redirects]]
 from = "/"
